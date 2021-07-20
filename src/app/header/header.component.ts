@@ -53,13 +53,13 @@ export class HeaderComponent implements OnInit {
     let navIcon=document.querySelector(".navbar-toggler");
     let nameText=document.querySelector(".navbar-brand");
     if(this.isNavOpen==true){
-      document.getElementById('navbar-icon-cross').style.backgroundImage='url("./../../../../assets/del.png")';
+      document.getElementById('navbar-icon-cross').style.backgroundImage='url("./assets/del.png")';
       navIcon.classList.add('navbarTranslate');
       nameText.classList.add('navbarNameTranslate');
     }
     else{
       let icon=document.getElementById('navbar-icon-cross');
-      icon.style.backgroundImage='url("./../../../../assets/menu.png")';
+      icon.style.backgroundImage='url("./assets/menu.png")';
       icon.style.height='18px';
       navIcon.classList.remove('navbarTranslate');
       nameText.classList.remove('navbarNameTranslate');

@@ -17,6 +17,6 @@ export class ImageComponent implements OnInit {
     this.scroller.scrollToAnchor("contactMe");
   }
   getCv(){
-    window.open('./../../../../assets/Sonam_SDE_1YOE.pdf', '_blank');
+    window.open('./assets/Sonam_SDE_1YOE.pdf', '_blank');
   }
 }
