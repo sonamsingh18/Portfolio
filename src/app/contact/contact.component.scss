@@ -1,0 +1,92 @@
+.contact{
+    //position: absolute;
+    //top: 290%;
+    width: 100%;
+    height: 60%;
+    margin-top: 80px;
+}
+.img-contact{
+    background-image: url("./../../assets/BlueDot.jpg");
+    height: 590px;
+    left: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+@media (min-width: 1241px){
+    .card{
+        //left: 50%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 600px;
+        transform: translate(-50%,-50%);
+    }
+}
+#btn-format{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+.inner-addon .fa {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.left-addon #btn-format  { padding-left:  50px; }
+.left-addon .fa  { left:  0px;}
+
+.btn.btn-success{
+    background-color: #00304d !important;
+    width: auto;
+}
+@media (min-width: 576px){
+    .card {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (max-width: 575px){
+    .card {
+        width: 90%;
+        margin: auto;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+@media (min-width: 768px){
+    .card {
+        width: 720px;
+        margin: auto;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+        
+    }
+}
+.aos-animate{
+    animation: zoomoutsingle 1s ease ;
+}
+@keyframes zoomoutsingle {
+    0% {
+        transform:translate(-50%,-50%) scale(0,0);
+    }
+    
+    100% {
+        transform:translate(-50%,-50%) scale(1,1);
+    }
+}

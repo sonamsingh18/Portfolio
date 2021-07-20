@@ -1,0 +1,42 @@
+/*.skills{
+    //position: absolute;
+    //top:180%;
+    
+    //display: block;
+    //text-align: center;
+    width: 1040px;
+    //left: 50%;
+    margin: auto;
+    margin-top: 80px;
+    //right: 50%;
+    //transform: translate(-50%);
+}*/
+.progress-bar{
+    background-color: #00334D;
+}
+.progress{
+    height: 0.3rem !important;
+}
+.skill-name{
+    width: 100%;
+    display: flex;
+    float: right;
+    color: #00334D;
+}
+.skill-percent{
+    float: right;
+    color: #00334D;
+}
+
+.aos-animate{
+    transform-origin: 0% 100%;
+    animation: zoo 1s ;
+}
+@keyframes zoo {
+   0%{
+     transform:scaleX(0)
+   }
+   100%{
+    transform:scaleX(1)
+   }
+}

@@ -1,0 +1,72 @@
+/*.education{
+    //top: 230%;
+    //position: absolute;
+    //left: 50%;
+    //transform: translate(-50%);
+    width: 1040px;
+    //display: block;
+    margin: auto;
+    margin-top: 80px;
+}*/
+.degree-name{
+    width: 30%;
+    margin-right: 0;
+    background-color: teal;
+}
+.degree-desc{
+    width: 80%;
+    margin-left: 0;
+}
+.align-degree{
+    left:50%;top:50%;
+    //transform: translate(-50%,-50%);
+}
+.degree-name .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+.clg-name{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.course{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card{
+    height: 200px;
+}
+.card:hover {
+    transform: scale(1);
+}
+.degree-name.aos-animate{
+    transform-origin: 0% 100%;
+    animation: translateName 0.5s ;
+}
+
+@keyframes translateName {
+   0%{
+     transform:scaleX(0)
+   }
+   100%{
+    transform:scaleX(1)
+   }
+}
+.degree-desc.aos-animate{
+    transform-origin: 100% 50%;
+    animation: translateDesc 0.5s ;
+}
+@keyframes translateDesc {
+   0%{
+     transform:scaleX(0)
+   }
+   100%{
+    transform:scaleX(1)
+   }
+}

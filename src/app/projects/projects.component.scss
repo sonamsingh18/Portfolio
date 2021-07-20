@@ -1,0 +1,44 @@
+/*.projects{
+    //position: absolute;
+    //top: 120%;
+    //left:50%;
+    width: 1040px;
+    margin: auto;
+    margin-top: 80px;
+    //transform: translate(-50%);
+    //display: flex;
+    //justify-content: space-around;
+    //display: block;
+}*/
+h4{
+    text-align: center;
+    text-transform: capitalize;
+}
+.card{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 20rem;
+}
+@media (max-width: 570px){
+    
+    .card {
+        width: 92%;
+    }
+}
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-style: monospace;
+}
+.btn-style{
+    display: inline-block;
+    margin: auto;
+}
+
+.card-body{
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}

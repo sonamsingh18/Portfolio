@@ -1,0 +1,111 @@
+.container-fluid{
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    left: 0;
+}
+.navbar{
+    width: 100%;
+    box-shadow: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent !important;
+    z-index: 2;
+    color: white !important;
+    align-items: center;
+    font-family: monospace;
+}
+
+.navbar-brand,.nav-link{
+    color: white !important;
+}
+.navbar-collapse{
+    flex: 0;
+}
+.navbar-bgcolor-scroll{
+    background-color: #00334D !important;
+}
+a{
+    cursor: pointer !important;
+}
+//991 ox max
+
+/*@media (max-width: 991px){
+    
+    .navbar{
+        width: 100%;
+        box-shadow: none;
+        font-size: 18px;
+        font-weight: 600;
+        z-index: 2;
+        color: white !important;
+        font-family: monospace;
+    }
+    .navbar-nav.mr-auto{
+        margin-top: 30px;
+        background-color: aqua;
+    }
+    
+}*/
+@media screen and (max-width: 991px){
+.navbar-collapse {
+        position: fixed;
+        top: 0;
+        height: 100% !important;
+        width: 300px;
+        right: 0;
+        background-color: #999;
+        overflow-y: visible;
+        text-align: left;
+        max-height: none !important;
+        padding: 55px 14px;
+        padding-bottom: 18px;
+        font-family: monospace;
+        font-weight: 100;
+        background: linear-gradient(teal 20%, #003333 100%);
+    }
+    
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('./../../assets/menu.png');
+    height: 20px;
+    //background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+.nav-item:hover{
+    background:rgb(63, 100, 100);
+}
+
+
+@media screen and (min-width: 991px){
+    .navbarTranslate{
+        transform: translate3D(0px,0,0);
+    }
+    .navbarNameTranslate{
+        transform: translate3D(0px,0,0);
+    }
+}
+@media screen and (max-width: 991px){
+    .navbarTranslate{
+        transform: translate3D(-250px,0,0);
+       // background-image: url('./../../assets/github.png');
+    }
+    .navbarNameTranslate{
+        transform: translate3D(-700px,0,0);
+    }
+    .nav-item{
+        padding: 10px;
+    }
+    
+}
+#navbar-toggle{
+    background-image: url('./../../assets/book3.jpg');
+    height: 10px;
+    width: 10px;
+    z-index: 232;
+}

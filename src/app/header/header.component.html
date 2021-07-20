@@ -1,0 +1,41 @@
+<div>
+  <div class="navbar-header">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" (scroll)="onWindowScroll($event);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SONAM'S PORTFOLIO</a>
+        <button class="navbar-toggler" 
+            type="button" data-toggle="collapse" 
+            data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+            (click)="openNav()">
+          <span class="navbar-toggler-icon" id="navbar-icon-cross"></span>
+        </button>
+        <div class="navbar-collapse justify-content-end collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(1)">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(2)">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(3)">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(4)">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(5)">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" (click)="headerClk(6)">CONTACT</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav> 
+  </div>
+</div>

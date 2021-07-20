@@ -1,0 +1,32 @@
+/*.aboutCard{
+    width: 1040px;
+    margin-top: 80px;
+    //left: 50%;
+    //transform: translate(50%);
+    //justify-content: center;
+    margin: auto;
+}*/
+.card{
+   // position: absolute;
+    //top: 65%;
+    
+    //width: 1005px;
+    height: 200px;
+    justify-content: space-around;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+@media (max-width: 767px){
+    .card {
+        height: 400px;
+    }
+}
+.text-uppercase{
+    font-weight: bold;
+    display: inline-block;
+    font-family: monospace;
+}
+.text-lowercase{
+    color: teal;
+    display: inline-block;
+    text-transform: capitalize !important;
+}
